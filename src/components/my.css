@@ -18,7 +18,7 @@
     }
     .prof {
         display:block;
-        text-align: center;
+        /* text-align: center; */
         align-items: center;
     }
 }
