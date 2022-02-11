@@ -21,7 +21,7 @@
     }
 }
 
-@media (max-width:400px) {
+/* @media (max-width:400px) {
     .pic {
         width: auto;
         height: auto;
@@ -30,7 +30,7 @@
         display:block;
     }
    
-}
+} */
 
 
 .head {
