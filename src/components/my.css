@@ -21,13 +21,16 @@
     }
 }
 
-/* @media (min-width:500px) {
+@media (min-width:500px) {
     .pic {
         width: auto;
         height: auto;
     }
+    .prof {
+        display:block;
+    }
    
-} */
+}
 
 
 .head {
