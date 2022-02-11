@@ -5,14 +5,14 @@ const Header = () => {
   return (
     <nav className="space-x-10">
       <ul className="flex flex-row space-x-4 md:space-x-1 md:text-xl justify-center font-thin">
-        <li>
+        {/* <li>
           <a
             href=""
             className="py-1 px-5 hover:bg-gray focus:bg-gray rounded-lg"
           >
             Suraj Ughade
           </a>
-        </li>
+        </li> */}
         <li>
           <a
             href="#About"
