@@ -11,7 +11,7 @@
     width: 100%;
 }
 
-@media (max-width:600px) {
+@media (max-width:768px) {
     .pic {
         width: auto;
         height: auto;
@@ -19,6 +19,14 @@
     .prof {
         display:block;
     }
+}
+
+@media (min-width:768px) {
+    .pic {
+        width: auto;
+        height: auto;
+    }
+   
 }
 
 .head {
