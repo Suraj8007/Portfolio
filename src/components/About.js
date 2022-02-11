@@ -3,7 +3,7 @@ import "./my.css";
 const About = () => {
   return (
     <div id="About">
-      <div className="prof">
+      <div className="prof  patterns">
       <div className="myProj">
         <img className="pic" src="./images/pic1.png"></img>
       </div>

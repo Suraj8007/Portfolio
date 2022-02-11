@@ -6,8 +6,8 @@ const Hero = () => {
   const container = useRef(null);
 
   return (
-    <section className="my-16 px-5 md:my-32 flex flex-col flex-wrap space-y-16 md:space-y-0 patterns">
-      <div className="ml-auto w-72 md:w-96 lg:w-2/5">
+    <section className="my-16 px-5 md:my-32 flex flex-col flex-wrap space-y-16 md:space-y-5">
+      <div className="ml-auto w-72 md:w-96 lg:w-2/5 ">
         <div className="container" ref={container}></div>
       </div>
       <div className="prof head space-y-20">
