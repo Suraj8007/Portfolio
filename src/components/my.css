@@ -10,30 +10,6 @@
 .pic {
     width: 100%;
 }
-
-@media (max-width:768px) {
-    .pic {
-        width: auto;
-        height: auto;
-    }
-    .prof {
-        display:block;
-        
-    }
-}
-
-/* @media (max-width:400px) {
-    .pic {
-        width: auto;
-        height: auto;
-    }
-    .prof {
-        display:block;
-    }
-   
-} */
-
-
 .head {
     font-size: 20px;
 }
@@ -62,4 +38,15 @@ Typewriter {
 
 .myProj:hover {
     transform: scale(1.1);
+}
+
+
+@media (max-width:768px) {
+    .pic {
+        width: auto;
+        height: auto;
+    }
+    .prof {
+        display:block;  
+    }
 }
