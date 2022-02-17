@@ -1,9 +1,10 @@
 import React from "react";
 import { RESUME_PATH } from "../root.link";
+import "./my.css"
 
 const Header = () => {
   return (
-    <nav className="space-x-10">
+    <nav className="navbar space-x-10">
       <ul className="flex flex-row space-x-4 md:space-x-1 md:text-xl justify-center font-thin">
         
         <li>

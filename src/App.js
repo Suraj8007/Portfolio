@@ -6,6 +6,9 @@ const Project = lazy(() => import('./components/Project'));
 const Skill = lazy(() => import('./components/Skill'));
 const Contact = lazy(() => import('./components/Contact'));
 const About = lazy(() => import('./components/About'))
+const Nav = lazy(() => import('./components/Nav1'))
+
+
 function App() {
   return (
     <Suspense
@@ -18,10 +21,12 @@ function App() {
         </div>
       }
     >
-      <div className='App container my-10 mx-auto max-w-screen-lg bg-black'>
-        <Header />
+      <div className='App container my-10 mx-auto  bg-black'>
+        {/* <Header /> */}
+        <Nav />
         <main>
           <Hero />
+          {/* <Experience /> */}
           <About />
           <Project />
           <Skill />

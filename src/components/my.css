@@ -17,6 +17,7 @@
 #About {
     margin-top: 30px;
     padding: 30px;
+    /* font-size: 35px; */
 }
 
 Typewriter {
@@ -37,7 +38,7 @@ Typewriter {
 }
 
 .myProj:hover {
-    transform: scale(1.1);
+    transform: scale(1.05);
 }
 
 
@@ -49,4 +50,35 @@ Typewriter {
     .prof {
         display:block;  
     }
+    p{
+        font-size: 15px;
+    }
+  
+}
+.abt{
+    width: 100%;
+}
+.hero1{
+    padding-top: 40px;
+}
+#About{
+    padding-top: 150px;
+}
+p{
+    font-size: large;
+}
+.about{
+    padding-top: 100px;
+}
+.info{
+    width:100px;
+}
+#Projects{
+    padding-top: 1px;
+}
+#contact{
+    padding-top: 45px;
+}
+#Skill{
+    padding-top: 1px;
 }
