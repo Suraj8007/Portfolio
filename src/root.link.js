@@ -1,4 +1,4 @@
-export const RESUME_PATH = 'https://drive.google.com/drive/folders/1tyDn2547TpqB2-5tI-Ft9hjDFhExIk70?usp=sharing';
+export const RESUME_PATH = 'https://drive.google.com/file/d/1j6ZWx_ZYrdW0nk5-UOo-eB0LAQvCUBVs/view';
 export const GITHUB_USERNAME = 'Suraj8007';
 export const LINKEDIN_USERNAME = 'suraj-ughade';
 export const FIRST_NAME = 'Suraj';

@@ -26,8 +26,10 @@ const About = () => {
           With a knack for problem-solving and analytics, I am
           passionate about solving Algorithmic problems with a
           good hold on Data Structures.</p>
+          <br></br>
+          <button className="resume" ><a  href="https://drive.google.com/file/d/1j6ZWx_ZYrdW0nk5-UOo-eB0LAQvCUBVs/view" target="blank">Resume</a></button>
+
         </div>{" "}
-        
       </div>
     </div>
   );

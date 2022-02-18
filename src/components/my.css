@@ -68,7 +68,7 @@ p{
     font-size: large;
 }
 .about{
-    padding-top: 100px;
+    padding-top: 60px;
 }
 .info{
     width:100px;
@@ -81,4 +81,23 @@ p{
 }
 #Skill{
     padding-top: 1px;
+}
+.resume{
+    border-radius: 50px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bolder;
+    border :5px solid rgb(243, 243, 67);
+}
+.resume:hover {
+    
+    background-color: white;
+    color: black;
+    border :5px solid rgb(226, 56, 121);
+   
+}
+.resume:hover{
+    transform: scale(1.1);
 }

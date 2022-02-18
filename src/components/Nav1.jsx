@@ -28,6 +28,9 @@ const Nav = () => {
                 <a href="#Skill">Skills</a>
               </li>
               <li>
+                <a href="https://drive.google.com/file/d/1j6ZWx_ZYrdW0nk5-UOo-eB0LAQvCUBVs/view?usp=sharing">Resume</a>
+              </li>
+              <li>
                 <a href="#contact">Contact</a>
               </li>
             </ul>
