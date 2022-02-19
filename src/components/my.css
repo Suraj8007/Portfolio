@@ -53,6 +53,9 @@ Typewriter {
     p{
         font-size: 15px;
     }
+    #About {
+        padding: 5px;
+    }
   
 }
 .abt{

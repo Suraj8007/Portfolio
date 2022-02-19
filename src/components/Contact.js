@@ -41,14 +41,17 @@ const Contact = () => {
             <a href={`https://twitter.com/${TWITTER_ID}`} target='_blank' rel='noreferrer'>
               <span className='mb-2 flex flex-row items-end border border-gray-500 p-2 rounded-lg text-sm'>
                 <img src='./images/icons/icons8-twitter (2).svg' alt='' width='24px' height='24px' className='mr-1' />
-                 Twitter
+                Twitter
               </span>
             </a>
           </div>
         </div>
 
         <div className='bg-gray px-5 py-10 md:py-8 sm:p-8 my-2 md:rounded-lg shadow-lg  justify-between w-full  md:w-6/12 '>
-          <form className='flex flex-col space-y-3 m-auto w-full' name='contact' method='post'>
+          <form action="mailto:surajughade5@gmail.com.com"
+            method="POST"
+            enctype="multipart/form-data"
+            name="EmailForm" className='flex flex-col space-y-3 m-auto w-full' name='contact' method='post'>
             <input type='hidden' name='form-name' value='contact' />
 
             <label htmlFor='name'>Name</label>
